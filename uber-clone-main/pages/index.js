@@ -49,15 +49,19 @@ export default function Home() {
             </ActionButton>
           </Link>
 
-          <ActionButton>
-            <ActionButtonImage src="https://i.ibb.co/bFDDgYx/Bike.png" />
-            Wheels
-          </ActionButton>
+          <Link href="/NotAvailable">
+            <ActionButton>
+              <ActionButtonImage src="https://i.ibb.co/bFDDgYx/Bike.png" />
+              Wheels
+            </ActionButton>
+          </Link>
 
-          <ActionButton>
-            <ActionButtonImage src="https://i.ibb.co/b6fRrH5/calender.png" />
-            Reserve
-          </ActionButton>
+          <Link href="/NotAvailable">
+            <ActionButton>
+              <ActionButtonImage src="https://i.ibb.co/b6fRrH5/calender.png" />
+              Reserve
+            </ActionButton>
+          </Link>
         </ActionButtons>
 
         <InputButton>Where to</InputButton>
