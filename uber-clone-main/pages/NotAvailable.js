@@ -39,9 +39,9 @@ const NotAvailableText = tw.h1`
   text-3xl font-bold text-gray-800 mb-4
 `;
 const BackButtonContainer = tw.div`
-    absolute rounded-full top-4 left-4 z-10 bg-white shadow-md cursor-pointer
+    absolute rounded-full top-4 left-4 z-10 bg-white shadow-md cursor-pointer transform transition hover:scale-110
 `;
 
 const BackButton = tw.img`
-    h-full object-contain
+    h-full object-contain 
 `;

@@ -144,7 +144,7 @@ const ButtonContainer = tw.div`
 `;
 
 const BackButton = tw.img`
-    h-12 cursor-pointer
+    h-12 cursor-pointer transform transition hover:scale-110
 `;
 
 const FromToIcons = tw.div`
@@ -188,11 +188,11 @@ const StartIcon = tw.img`
 `;
 
 const ConfirmContainer = tw.div`
-    bg-black text-white text-center mt-2 mx-4 px-4 py-3 text-2xl cursor-pointer
+    bg-black text-white text-center mt-2 mx-4 px-4 py-3 text-2xl cursor-pointer transition hover:bg-gray-900
 `;
 
 const ConfirmButton = tw.div`
-    text-white
+    text-white transform transition hover:scale-105
 `;
 const SuggestionsList = tw.ul`
   absolute w-2/3 mt-12 bg-white border border-gray-300 rounded-md shadow-md overflow-hidden z-10
