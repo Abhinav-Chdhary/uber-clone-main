@@ -63,7 +63,9 @@ function Confirm() {
         />
 
         <ConfirmButtonContainer>
-          <ConfirmButton>Confirm UberX</ConfirmButton>
+          <Link href="/NotAvailable">
+            <ConfirmButton>Confirm</ConfirmButton>
+          </Link>
         </ConfirmButtonContainer>
       </RideContainer>
     </Wrapper>
@@ -85,7 +87,7 @@ const ConfirmButtonContainer = tw.div`
 `;
 
 const ConfirmButton = tw.div`
-    bg-black text-white my-4 mx-4 py-4 text-center text-xl
+    bg-black text-white my-4 mx-4 py-4 text-center text-xl cursor-pointer
 `;
 
 const BackButtonContainer = tw.div`
