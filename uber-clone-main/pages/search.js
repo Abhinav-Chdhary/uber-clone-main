@@ -188,7 +188,7 @@ const StartIcon = tw.img`
 `;
 
 const ConfirmContainer = tw.div`
-    bg-black text-white text-center mt-2 mx-4 px-4 py-3 text-2xl cursor-pointer transition hover:bg-gray-900
+    bg-black text-white text-center mt-2 mx-4 px-4 py-3 text-2xl cursor-pointer transition hover:bg-gray-800
 `;
 
 const ConfirmButton = tw.div`

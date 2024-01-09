@@ -41,7 +41,7 @@ const Wrapper = tw.div`
 `;
 
 const SignInButton = tw.button`
-    bg-black text-white text-center py-4 mt-8 self-center w-full
+    bg-black text-white text-center py-4 mt-8 self-center w-full text-xl transition hover:bg-gray-800 hover:text-xl
 `;
 
 const UberLogo = tw.img`

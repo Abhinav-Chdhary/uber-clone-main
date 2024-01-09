@@ -87,7 +87,7 @@ const ConfirmButtonContainer = tw.div`
 `;
 
 const ConfirmButton = tw.div`
-    bg-black text-white my-4 mx-4 py-4 text-center text-xl cursor-pointer transition hover:bg-gray-900
+    bg-black text-white my-4 mx-4 py-4 text-center text-xl cursor-pointer transition hover:bg-gray-800
 `;
 
 const BackButtonContainer = tw.div`
